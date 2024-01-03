@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    </head>
+  <body>
+    <div class="container">
+      <div class="sectionOne">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="sectionTwo">
+        <div class="sectionTwo-top">
+          <h6>Try it free 7 days <span>then $20/mo. thereafter</span></h6>
+        </div>
+        <div class="sectionTwo-bottom">
+          <form action="" class="form" id="form">
+            <div class="form-control">
+              <label for="fname"> </label>
+              <input
+                type="text"
+                class="fname"
+                name="fname"
+                placeholder="First Name"
+              />
+
+              <img src="images/icon-error.svg" alt="exclamation-circle" class="exclamation-circle">
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="lname"></label>
+              <input
+                type="text"
+                class="lname"
+                name="lname"
+                placeholder="Last Name"
+              />
+              <img src="images/icon-error.svg" alt="exclamation-circle" class="exclamation-circle">
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="email"></label>
+              <input
+                type="text"
+              class="email"
+                name="email"
+                placeholder="Email Address"
+              />
+              <img src="images/icon-error.svg" alt="exclamation-circle" class="exclamation-circle">
+              <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+              <label for="password"></label>
+              <input
+                type="text"
+                class="password"
+                name="password"
+                placeholder="Password"
+              />
+              <img src="images/icon-error.svg" alt="exclamation-circle" class="exclamation-circle">
+              
+              <small>Error message</small>
+            </div>
+            <button>Claim your free trial</button>
+            <!--the button MUST be inside the form-->
+          <p>
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </form>
+          
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Barbara Ward</a>.
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</html>
+
+<!--
+Just the JS bit with Poppins:
+  https://www.youtube.com/watch?v=rsd4FNGTRBw
+
+
+  https://www.youtube.com/watch?v=HD4qiSU1CBQ
+  
+
+  this is a long one: 2:31
+  https://www.youtube.com/watch?v=zyaJNZ8WMIA
+
+-->
+
+<!--Flor Poppin's HTML:
+
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="florinpop17" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="a@florin-pop.com" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password check</label>
+			<input type="password" placeholder="Password two" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<button>Submit</button>
+	</form>
+</div>
+
+
+
